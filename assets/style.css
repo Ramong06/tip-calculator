@@ -1,11 +1,8 @@
 body {
   font-family: Roboto;
-  background: #8E0E00;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8E0E00, #1F1C18);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #001c8e;
+  background: -webkit-linear-gradient(to left, #00118e, #1F1C18);
+  background: linear-gradient(to left, #000c8e, #1F1C18);
 }
 
 #container {
@@ -45,7 +42,6 @@ input {
 
 #billamt {
   font-size: 14px;
-  color: red;
   background-color: #f7f7f7;
   width: 60%;
   padding: 5px 5px 8px 8px;
@@ -61,7 +57,6 @@ input {
   width: 60%;
   padding: 5px 5px 8px 8px;
   margin-left: 20px;
-  color: red;
   background-color: #f7f7f7;
   font-size: 14px;
 }
@@ -81,7 +76,7 @@ button {
   font-weight: bold;
   display: block;
   margin: 30px auto;
-  background: #AD133A;
+  background: #2d13ad;
   border-radius: 5px;
   width: 200px;
   height: 50px;
@@ -90,7 +85,7 @@ button {
 }
 
 button:hover {
-  background: #4c2827;
+  background: #29274c;
   border-bottom-color: #111;
 }
 
